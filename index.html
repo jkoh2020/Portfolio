@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section>
+        <!--navigation-->
+        <nav>
+            <!--logo-->
+            <a href="#" id="logo">J K O H</a>
+            <!--menu-->
+            <ul>
+                
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#">Web Develop</a></li>
+                <li><a href="#">Android App Develop</a></li>
+                <li><a href="#">Software Develop</a></li>
+            </ul>
+        </nav>
+        <!--sidemenu-->
+        <div id="mySidenav" class="sidenav">
+            <a href="#logo" id="top">Home</a>
+            <a href="#about_me" id="about">About</a>
+            <a href="#" id="resume">Resume</a>
+            <a href="#" id="projects">Projects</a>
+            <a href="#" onclick="document.getElementById('id01').style.display='block'"  id="contact">Contact</a>
+          </div>
+    
+        <div class="text" >
+            <p>Hello,</p>
+            <p>I'm Jason Oh</p>
+            <p>Android App, Web & Software Developer</p>
+            <button class="hire" onclick="document.getElementById('id01').style.display='block'"  class="hire">Hire Me</button>
+            <button class="download">Download</button>  
+        </div>
+        <!--my picture-->
+        <img src="images/me2.png" class="me" length="500" height="700">
+    </section>
+    
+    <div class="about-text">
+    <div class="frame"><img src="images/me.jpg" width="80" height="100"></div>
+
+    <div class="intro" id="about_me">
+     <p>About Me</p>
+     <p>Android App, Web & Software Developer</p>
+    <p>I am a freelancer Android App, Web and Software Developer. If you want to prosper your business and need a highly exprienced Android App, Web or Software Developer to pursuit your challenged project. I am the one who you have been looking for.
+            Please don't hesitate to get in touch with me.
+        </p>
+        <button onclick="document.getElementById('id01').style.display='block'">Hire Me</button>
+        <button>Download</button>
+
+    </div>
+</div>
+
+    <!--projects-->
+    <div class="projects">
+        <p>My Projects</p>
+     <div class="projects-text">   
+         <p>If you want to make android app, website or software for your business. Please don't hesitate to 
+            contact me. I will make my commitment to meet your demanding deadline and satisfaction.
+        </p>
+    </div>
+
+    <!--box-->
+    <div class="boxes">
+        <div class="box">
+            <span>1</span>
+            <p id="heading">Web Develop</p>
+            <p id="details">This website is designed for e-commerce.</p>
+            <button>View</button>
+        </div>
+        <div class="box">
+            <span>2</span>
+            <p id="heading">Android App Develop</p>
+            <p id="details">Powerball order and Fidget spinner</p>
+            <button>View</button>
+        </div>
+        <div class="box">
+            <span>3</span>
+            <p id="heading">Software Develop</p>
+            <p id="details">Powerball order. Fidget spinner</p>
+            <button>View</button>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div id="id01" class="modal">
+  
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="exit">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+       <h1>Contact Form</h1>
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>First Name</b></label>
+        <input type="text" placeholder="Enter your first name" name="uname" required>
+
+        <label for="lname"><b>Last Name</b></label>
+        <input type="text" placeholder="Enter your last name" name="lname" required>
+
+        <label for="pnumber"><b>Phone Number</b></label>
+        <input type="text" placeholder="Enter your cell number" name="pnumber" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter your email address" name="email" required>
+        <p>
+        <label for="textbox"><b>Comment</b></label></p>
+        <textarea id="comment"
+            rows = "7"
+            cols = "160">
+        </textarea>
+  
+        
+        <button type="submit" class="submit">Submit</button>
+        <label>
+        
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        
+      </div>
+    </form>
+  </div>
+  <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+
+  
+<div class="clear"></div>
+
+</body>
+</html>
