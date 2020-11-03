@@ -543,6 +543,59 @@ span.psw {
      width: 100%;
   }
 }
+
+
+footer{
+  background-color: #a8a5a2;
+  height: 40px;
+  text-align: center;
+  font-size: 1em;
+  color: #fff;
+  padding: 1.5em 2.0em;
+ 
+}
+
+footer ul#bottom{
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 0.6em;
+  padding: 0;
+}
+
+#bottom li{
+  display: inline-block;
+  padding: 0 0.4em 0 0;
+}
+
+footer ul#bottom a:hover{
+  color: rgb(15, 247, 15);
+}
+
+footer a:link{
+  color: white;
+  text-decoration: none;
+}
+
+footer a:visited{
+  color: white;
+  text-decoration: none;
+  
+}
+
+header a:link{
+  color: white;
+  text-decoration: none;
+}
+
+header a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+div.last{
+  clear: both;
+  font-size: 1%;
+}
   
 
 
