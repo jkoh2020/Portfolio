@@ -7,6 +7,7 @@ body{
 
 ul{
   list-style: none;
+  
 }
 
 a{
@@ -595,8 +596,16 @@ header a:visited{
 div.last{
   clear: both;
   font-size: 1%;
+  font-family: italic arial 'Times New Roman', Times, serif;
 }
-  
+
+.software{
+  background-color: lightgray;
+}
+
+.container{
+  width: auto;
+}
 
 
 

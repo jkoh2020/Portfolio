@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="index.css">
+    
+
 </head>
 <body>
     <section>
@@ -16,17 +18,17 @@
             <ul>
                 
                 <li><a href="#about_me">About Me</a></li>
-                <li><a href="#">Web Develop</a></li>
-                <li><a href="#">Android App Develop</a></li>
-                <li><a href="#">Software Develop</a></li>
+                <li><a href="webdevelop.html">Web Develop</a></li>
+                <li><a href="App.html">Android App Develop</a></li>
+                <li><a href="software.html">Software Develop</a></li>
             </ul>
         </nav>
         <!--sidemenu-->
         <div id="mySidenav" class="sidenav">
             <a href="#logo" id="top">Home</a>
             <a href="#about_me" id="about">About</a>
-            <a href="#" id="resume">Resume</a>
-            <a href="#" id="projects">Projects</a>
+            <a href="images/Jason Oh_resume_4.pdf" download="Resume" id="resume">Resume</a>
+            <a href="software.html" id="projects">Projects</a>
             <a href="#" onclick="document.getElementById('id01').style.display='block'"  id="contact">Contact</a>
           </div>
     
@@ -35,7 +37,7 @@
             <p>I'm Jason Oh</p>
             <p>Android App, Web & Software Developer</p>
             <button class="hire" onclick="document.getElementById('id01').style.display='block'"  class="hire">Hire Me</button>
-            <button class="download">Download</button>  
+            <a href="images/Jason Oh_resume_4.pdf" download="Resume"><button class="download">Download</button></a> 
         </div>
         <!--my picture-->
         <img src="images/me2.png" class="me" length="500" height="700">
@@ -51,7 +53,7 @@
             Please don't hesitate to get in touch with me.
         </p>
         <button onclick="document.getElementById('id01').style.display='block'">Hire Me</button>
-        <button>Download</button>
+        <a href="images/Jason Oh_resume_4.pdf" download="Resume"><button class="download">Download</button></a> 
 
     </div>
 </div>
@@ -71,19 +73,19 @@
             <span>1</span>
             <p id="heading">Web Develop</p>
             <p id="details">This website is designed for e-commerce.</p>
-            <button>View</button>
+            <a href="webdevelop.html"><button>View</button></a>
         </div>
         <div class="box">
             <span>2</span>
             <p id="heading">Android App Develop</p>
             <p id="details">Powerball order and Fidget spinner</p>
-            <button>View</button>
+            <a href="App.html"><button>View</button></a>
         </div>
         <div class="box">
             <span>3</span>
             <p id="heading">Software Develop</p>
             <p id="details">Powerball order. Fidget spinner</p>
-            <button>View</button>
+            <a href="software.html"><button>View</button></a>
         </div>
 
     </div>
@@ -93,26 +95,26 @@
 
 <div id="id01" class="modal">
   
-    <form class="modal-content animate" action="/action_page.php" method="post">
+    <form class="modal-content animate" action="https://formspree.io/f/mwkwazdz" method="POST">
       <div class="exit">
         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
        <h1>Contact Form</h1>
       </div>
   
       <div class="container">
-        <label for="uname"><b>First Name</b></label>
+        <label for="firstName"><b>First Name</b></label>
         <input type="text" placeholder="Enter your first name" name="uname" required>
 
-        <label for="lname"><b>Last Name</b></label>
+        <label for="lastName"><b>Last Name</b></label>
         <input type="text" placeholder="Enter your last name" name="lname" required>
 
-        <label for="pnumber"><b>Phone Number</b></label>
+        <label for="phoneNumber"><b>Phone Number</b></label>
         <input type="text" placeholder="Enter your cell number" name="pnumber" required>
 
-        <label for="email"><b>Email</b></label>
+        <label for="Email"><b>Email</b></label>
         <input type="text" placeholder="Enter your email address" name="email" required>
         <p>
-        <label for="textbox"><b>Comment</b></label></p>
+        <label for="message"><b>Comment</b></label></p>
         <textarea id="comment"
             rows = "7"
             cols = "160">
@@ -150,7 +152,7 @@
                 <li class="btm"><a href="#">Web Develop</a></li>
                 <li><a href="#">Android App Develop</a></li>
                 <li><a href="#">Software Develop</a></li>
-                <h6> <span>&copy;2020 Jason Oh</span></h6>
+                <h6> <span>&copy;2021 Jason Oh</span></h6>
                
         </footer>
 
