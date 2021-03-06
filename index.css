@@ -198,6 +198,27 @@ header nav ul {
     background-color: blue;
   }
 
+  .text{
+    position: absolute;
+    left:25%;
+    top:25%;
+    transform: translate(-15%, -45%);
+  }
+  
+  .text p{
+    line-height: 0px;
+    margin:45px 0px 20px;
+  }
+
+  .me{
+    height: 450px;
+    position: absolute;
+    bottom: -100px;
+    left: 60%;
+    transform: translate(-80%);
+    
+  }
+
    /* Tablet display */
 @media only screen and (min-width: 600px) {
 
