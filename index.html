@@ -1,98 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-    
-
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="index.css">
+       
+    </head>
+</html>
 <body>
-    <section>
-        <!--navigation-->
+    <section class="index-banner">
+    <header>
+        <a href="index.html" class="header-brand">J K O H</a>
         <nav>
-            <!--logo-->
-            <a href="#" id="logo">J K O H</a>
-            <!--menu-->
             <ul>
-                
                 <li><a href="#about_me">About Me</a></li>
                 <li><a href="webdevelop.html">Web Develop</a></li>
                 <li><a href="App.html">Android App Develop</a></li>
                 <li><a href="software.html">Software Develop</a></li>
             </ul>
         </nav>
-        <!--sidemenu-->
-        <div id="mySidenav" class="sidenav">
-            <a href="#logo" id="top">Home</a>
-            <a href="#about_me" id="about">About</a>
-            <a href="images/JasonOh.pdf" download="Resume" id="resume">Resume</a>
-            <a href="software.html" id="projects">Projects</a>
-            <a href="#" onclick="document.getElementById('id01').style.display='block'"  id="contact">Contact</a>
-          </div>
-    
-        <div class="text" >
-            <p>Hello,</p>
-            <p>I'm Jason Oh</p>
-            <p>Android App, Web & Software Developer</p>
-            <button class="hire" onclick="document.getElementById('id01').style.display='block'"  class="hire">Hire Me</button>
-            <a href="images/JasonOh.pdf" download="Resume"><button class="download">Download</button></a> 
-        </div>
-        <!--my picture-->
-        <img src="images/me2.png" class="me" length="500" height="700">
-    </section>
-    
-    <div class="about-text">
-    <div class="frame"><img src="images/me.jpg" width="80" height="100"></div>
+    </header>
+     <!--sidemenu-->
+     <div id="mySidenav" class="sidenav">
+        <a href="#logo" id="top">Home</a>
+        <a href="#about_me" id="about">About</a>
+        <a href="images/JasonOh.pdf" download="Resume" id="resume">Resume</a>
+        <a href="software.html" id="projects">Projects</a>
+        <a href="#" onclick="document.getElementById('id01').style.display='block'"  id="contact">Contact</a>
+      </div>
+      <main>
+        
+            <div class="text">
+                <p class="hello">Hello,</p>
+                <h1>I'm Jason Oh</h1>
+                <h2>Software Developer</h2>
+                <button class="hire" onclick="document.getElementById('id01').style.display='block'"  class="hire">Hire Me</button>
+                <a href="images/JasonOh.pdf" download="Resume"><button class="download">Download</button></a> 
+            </div>
+            <img src="images/me2.png" class="me" height="500">
+        </section>
+        <div class="about-text">
+            <div class="frame"><img src="images/me.jpg" width="60" height="80"></div>
+        
+            <div class="intro" id="about_me">
+             <p>About Me</p>
+             <p>Web & Software Developer</p>
+            <p>I am a freelancer Android App, Web and Software Developer. If you want to prosper your business and need a highly exprienced Android App, Web or Software Developer to pursuit your challenged project. I am the one who you have been looking for.
+                    Please don't hesitate to get in touch with me.
+                </p>
+                <button onclick="document.getElementById('id01').style.display='block'">Hire Me</button>
+                <a href="images/JasonOh.pdf" download="Resume"><button class="download">Download</button></a> 
+            </div>
+            </div>
+            <br>
+            <br>
 
-    <div class="intro" id="about_me">
-     <p>About Me</p>
-     <p>Android App, Web & Software Developer</p>
-    <p>I am a freelancer Android App, Web and Software Developer. If you want to prosper your business and need a highly exprienced Android App, Web or Software Developer to pursuit your challenged project. I am the one who you have been looking for.
-            Please don't hesitate to get in touch with me.
-        </p>
-        <button onclick="document.getElementById('id01').style.display='block'">Hire Me</button>
-        <a href="images/JasonOh.pdf" download="Resume"><button class="download">Download</button></a> 
+            <!--projects-->
+            <div class="projects">
+                <p>My Projects</p>
+             <div class="projects-text">   
+                 <p>If you want to make android app, website or software for your business. Please don't hesitate to 
+                    contact me. I will make my commitment to meet your demanding deadline and satisfaction.
+                </p>
+            </div>
+            
 
-    </div>
-</div>
-
-    <!--projects-->
-    <div class="projects">
-        <p>My Projects</p>
-     <div class="projects-text">   
-         <p>If you want to make android app, website or software for your business. Please don't hesitate to 
-            contact me. I will make my commitment to meet your demanding deadline and satisfaction.
-        </p>
-    </div>
-
-    <!--box-->
+             <!--box-->
+ 
     <div class="boxes">
-        <div class="box">
+            <div class="box">
             <span>1</span>
             <p id="heading">Web Develop</p>
-            <p id="details">This website is designed for e-commerce.</p>
+            <p id="details">This website is designed for media.</p>
             <a href="webdevelop.html"><button>View</button></a>
         </div>
+        
         <div class="box">
             <span>2</span>
             <p id="heading">Android App Develop</p>
-            <p id="details">Powerball order and Fidget spinner</p>
+            <p id="details">Fidget spinner, PowerBall Generator</p>
             <a href="App.html"><button>View</button></a>
         </div>
+        
         <div class="box">
             <span>3</span>
             <p id="heading">Software Develop</p>
-            <p id="details">Powerball order. Fidget spinner</p>
+            <p id="details">Online store, e-commerce</p>
             <a href="software.html"><button>View</button></a>
         </div>
-
     </div>
+    
 </div>
-
-
-
 <div id="id01" class="modal">
   
     <form class="modal-content animate" action="https://formspree.io/f/mwkwazdz" method="POST">
@@ -116,8 +115,8 @@
         <p>
         <label for="message"><b>Comment</b></label></p>
         <textarea id="comment" name="Message" required
-            rows = "7"
-            cols = "160">
+            rows = "15"
+            cols = "35">
         </textarea>
   
         
@@ -143,19 +142,18 @@
         }
     }
     </script>
-    
-    <div class="clear"></div>
+     </main>
+     <div class="clear"></div>
+     <br>
     <footer>
         <ul id="bottom">
                 <li class="home"><a href="#">Home</a></li>
                 <li><a href="#about_me">About Me</a></li>
-                <li class="btm"><a href="#">Web Develop</a></li>
-                <li><a href="#">Android App Develop</a></li>
-                <li><a href="#">Software Develop</a></li>
-                <h6> <span>&copy;2021 Jason Oh</span></h6>
+                <li class="btm"><a href="webdevelop.html">Web Develop</a></li>
+                <li><a href="App.html">Android App Develop</a></li>
+                <li><a href="software.html">Software Develop</a></li>
+                <h5> <span>&copy;2021 Jason Oh</span></h5>
+        </ul>
                
         </footer>
-
-
 </body>
-</html>
