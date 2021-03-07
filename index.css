@@ -15,15 +15,13 @@ body{
   
 
   header {
-    background-color: #fff;
-    width: 100%;
-    height: 80px;
+    display: none;
   }
 
   header .header-brand {
     display: none;
-    
-}
+  
+  }
 
 header nav ul {
     text-align: center;
@@ -58,6 +56,8 @@ header nav ul li a:hover{
   }
 
   @media only screen and (min-width: 600px) {
+
+   
 
    .header-brand {
      display: block !important;
@@ -116,12 +116,12 @@ header nav ul {
 .index-banner {
     width: 100%;
     height: 900px;
-    background-image: url('images/me2.png');
+    background-image: url('images/bg1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30%;
     display: table;
-    background: linear-gradient(46deg,orange,yellow,pink,orange,green,blue) ;          /*background: linear-gradient(pink 70%, cyan 50%);*/
+   
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -213,11 +213,13 @@ header nav ul {
   .me{
     height: 450px;
     position: absolute;
-    bottom: -100px;
-    left: 60%;
+    bottom: -70px;
+    left: 70%;
     transform: translate(-80%);
     
   }
+
+    
 
    /* Tablet display */
 @media only screen and (min-width: 600px) {
@@ -325,6 +327,10 @@ h5 {
 
   @media only screen and (min-width: 800px) {
 
+    header {
+      display: block;
+    }
+
 
     .text p:nth-child(1){
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -357,14 +363,11 @@ h5 {
       outline: none;
      
     }
-
-  
-    
    
 
   }
 
-  
+  /* Cell Phone Size */
 
   .intro p:nth-child(1){
     color: 3e3d3d;
@@ -454,7 +457,7 @@ h5 {
 
   .box{
     margin: 16px 16px 0;
-    width: 90%;
+    width: 95%;
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -469,10 +472,8 @@ h5 {
   }
   
   .boxes {
-    margin: 20px 10px 0 40px;
+    margin: 20px 10px 0 10px;
   }
-
- 
   
        
   .box span{
@@ -592,6 +593,20 @@ h5 {
       margin: 20px 10px 0;
       float: left;
     }
+
+    .index-banner {
+      width: 100%;
+      height: 900px;
+      background: linear-gradient(46deg,orange,yellow,pink,orange,green,blue);          /*background: linear-gradient(pink 70%, cyan 50%);*/
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30%;
+      display: table;
+     
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+  }
 
     .box {
       display: flex;
