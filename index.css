@@ -213,7 +213,7 @@ header nav ul {
   .me{
     height: 300px;
     position: absolute;
-    bottom: -70px;
+    bottom: -10px;
     left: 65%;
     transform: translate(-80%);
     
@@ -222,7 +222,7 @@ header nav ul {
     
 
    /* Tablet display */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
 
  
 
@@ -313,7 +313,7 @@ h5 {
 .me{
  
   position: absolute;
-  bottom: 100px;
+  bottom: -20px;
   left: 80%;
   height: 400px;
   transform: translate(-80%);
@@ -323,7 +323,7 @@ h5 {
 
 }
 
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 700px) {
 
    
 
@@ -541,7 +541,7 @@ h5 {
   }
 
 
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 700px) {
 
     section {
       width: 100%;
@@ -576,12 +576,12 @@ h5 {
 
     .about-text{
       width:80% !important;
-      height: 380px ;
+      height: 280px ;
       background-color: #FFFFFF;
       border-radius: 20px;
       box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
       display: flex;
-      margin: 20% auto 20px auto;
+      margin: -5% auto 20px auto;
       justify-content: space-evenly;
       align-items: center;
       
@@ -630,8 +630,8 @@ h5 {
     .me{
       height: 450px;
       position: absolute;
-      bottom: 100px;
-      left: 70%;
+      bottom: 100px ;
+      left: 75%;
       transform: translate(-80%);
       
     }
@@ -639,7 +639,11 @@ h5 {
 
   }
 
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1000px) {
+
+    .sidenav {
+      display: block;
+    }
 
     .about-text{
       width: 70% !important;
@@ -708,8 +712,8 @@ h5 {
     .me{
       height: 550px;
       position: absolute;
-      bottom: -20px;
-      left: 60%;
+      bottom: 100px;
+      left: 70%;
       transform: translate(-80%);
       
     }
@@ -810,6 +814,19 @@ h5 {
     }
     
   
+  }
+
+  @media only screen and (min-width: 1200px) {
+
+    .me{
+      height: 550px;
+      position: absolute;
+      bottom: -20px;
+      left: 65%;
+      transform: translate(-80%);
+      
+    }
+
   }
 
 
