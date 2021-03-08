@@ -554,8 +554,8 @@ h5 {
     }
 
     .box{
-      width: 35%;
-      height: 380px;
+      width: 50% !important;
+      height: 400px;
       background-repeat: no-repeat;
       background-size: cover;
       box-shadow: 4px 4px 12px rgba(0,0,0,0.7);
@@ -610,9 +610,7 @@ h5 {
     
   }
 
-    .box {
-      display: flex;
-    }
+    
 
     .box p#heading{
   
@@ -737,10 +735,10 @@ h5 {
 
     .projects{
       height:600px;
-      width: 70%;
+      width: 85%;
       background-color: #ffffff;  
       margin-top: -40px;
-      padding: 2% 10% 0px 10%;
+      padding: 2% 5% 10px 10%;
     }
     
     .projects p{
@@ -769,7 +767,7 @@ h5 {
     }
 
     .box{
-      width: 30%;
+      width: 35% !important;
       height: 400px;
       background-repeat: no-repeat;
       background-size: cover;
@@ -786,7 +784,7 @@ h5 {
     .boxes{
       display:flex;
       justify-content: space-between;
-      margin-left: -30px;
+      margin-left: -60px;
       
       
     }
@@ -827,6 +825,7 @@ h5 {
       
     }
 
+   
   }
 
   @media only screen and (min-width: 1600px) {
