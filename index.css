@@ -115,8 +115,8 @@ header nav ul {
 
 .index-banner {
     width: 100%;
-    height: 900px;
-    background-image: url('images/bg1.jpg');
+    height: 700px;
+    background-image: url('images/bg4.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30%;
@@ -211,10 +211,10 @@ header nav ul {
   }
 
   .me{
-    height: 450px;
+    height: 300px;
     position: absolute;
     bottom: -70px;
-    left: 70%;
+    left: 65%;
     transform: translate(-80%);
     
   }
@@ -224,9 +224,7 @@ header nav ul {
    /* Tablet display */
 @media only screen and (min-width: 600px) {
 
-  .sidenav{
-    display: block;
-  }
+ 
 
   .hello{
     display: block;
@@ -326,6 +324,8 @@ h5 {
 }
 
   @media only screen and (min-width: 800px) {
+
+   
 
     header {
       display: block;
@@ -484,7 +484,8 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: fantasy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 5px;
   }
@@ -495,6 +496,7 @@ h5 {
     color: #FFFFFF;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 40px;
+    font-size: 25px;
     
   
   }
