@@ -554,7 +554,7 @@ h5 {
     }
 
     .box{
-      width: 50% !important;
+      width: 35% !important;
       height: 400px;
       background-repeat: no-repeat;
       background-size: cover;
@@ -572,6 +572,7 @@ h5 {
    
       display: flex;
       justify-content: space-between;
+      margin: 2px;
     }
 
     .about-text{
@@ -616,14 +617,30 @@ h5 {
   
       color: #FFFFFF;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 800;
       line-height: 40px;
       
     
     }
 
-   
+    p#details{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 10px;
+      color: #aaa3a3;
+      line-height: 40px;
+      
+    }
+    
+
+    .projects{
+      height:600px;
+      width: 95%;
+      background-color: #ffffff;  
+      margin-top: -40px;
+      padding: 2% 0 10px 2%;
+    }
+    
 
     .me{
       height: 450px;
@@ -807,6 +824,7 @@ h5 {
       line-height: 40px;
       
     }
+
     footer {
       display: block;
     }
