@@ -215,7 +215,7 @@ header nav ul {
   .me{
     height: 300px;
     position: absolute;
-    bottom: -30px;
+    bottom: 10px;
     left: 65%;
     transform: translate(-80%);
     
