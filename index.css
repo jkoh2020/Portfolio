@@ -55,10 +55,8 @@ header nav ul li a:hover{
     display: none;
   }
 
+
   @media only screen and (min-width: 600px) {
-
-   
-
    .header-brand {
      display: block !important;
    }
@@ -215,7 +213,7 @@ header nav ul {
   .me{
     height: 300px;
     position: absolute;
-    bottom: 10px;
+    bottom: -10px;
     left: 65%;
     transform: translate(-80%);
     
@@ -772,7 +770,7 @@ h5 {
     }
 
     .projects{
-      height:600px;
+      height:750px;
       width: 85%;
       background-color: #ffffff;  
       margin-top: -40px;
